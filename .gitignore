@@ -1,0 +1,7 @@
+# OS junk
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Redundant packaged archive of the site
+carepath-website.zip
