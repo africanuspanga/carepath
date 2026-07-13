@@ -20,7 +20,7 @@
 <![endif]-->
 <div class="body-wrapper">
 <!-- HEADER AREA START -->
-<header class="ltn__header-area ltn__header-3">
+<header class="ltn__header-area ltn__header-3 cp-header-vicodin">
     <div class="ltn__header-top-area border-bottom">
         <div class="container">
             <div class="row">
@@ -34,8 +34,9 @@
                 </div>
                 <div class="col-md-5">
                     <div class="top-bar-right text-end">
-                        <div class="ltn__top-bar-menu">
+                        <div class="ltn__top-bar-menu cp-top-right">
                             <ul>
+                                <li><span class="cp-top-welcome">Welcome to CarePath Medical Equipment</span></li>
                                 <li>
                                     <div class="ltn__social-media">
                                         <ul>
@@ -52,37 +53,61 @@
             </div>
         </div>
     </div>
-    <div class="ltn__header-middle-area">
+    <div class="ltn__header-middle-area cp-header-middle">
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-4 col-6">
                     <div class="site-logo">
                         <a href="index.html"><img src="img/carepath-logo.png" alt="CarePath Logo"></a>
                     </div>
                 </div>
-                <div class="col header-contact-serarch-column d-none d-lg-block">
-                    <div class="header-contact-search">
-                        <div class="header-feature-item">
-                            <div class="header-feature-icon"><i class="icon-call"></i></div>
-                            <div class="header-feature-info">
-                                <h6>Phone</h6>
-                                <p><a href="tel:+255719902445">+255 719 902 445</a></p>
-                            </div>
-                        </div>
+                <div class="col-lg-6 col-md-4 d-none d-md-block">
+                    <div class="cp-header-search">
+                        <form action="#" onsubmit="return false;">
+                            <input type="text" placeholder="Search for medical equipment...">
+                            <button type="submit" aria-label="Search"><i class="icon-magnifier"></i></button>
+                        </form>
                     </div>
                 </div>
-                <div class="col-auto d-flex align-items-center justify-content-end">
-                    <div class="cp-cart-wrap" aria-label="Enquiry cart">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span class="cp-cart-count">0</span>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="cp-header-actions">
+                        <a href="contact.html" class="cp-header-action" aria-label="My account"><i class="icon-user"></i></a>
+                        <div class="cp-cart-wrap" aria-label="Enquiry cart" role="button" tabindex="0">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cp-cart-count">0</span>
+                        </div>
+                        <div class="cp-header-phone d-none d-lg-flex">
+                            <div class="cp-phone-icon"><i class="icon-call"></i></div>
+                            <div class="cp-phone-info">
+                                <span>Call Us Now</span>
+                                <a href="tel:+255719902445">+255 719 902 445</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="header-bottom-area ltn__border-top ltn__header-sticky ltn__sticky-bg-secondary ltn__secondary-bg section-bg-1 menu-color-white d-none d-lg-block">
+    <div class="header-bottom-area ltn__border-top ltn__header-sticky ltn__sticky-bg-secondary ltn__secondary-bg section-bg-1 menu-color-white d-none d-lg-block cp-header-bottom">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <div class="cp-categories-dropdown">
+                        <button class="cp-categories-btn" aria-expanded="false" aria-haspopup="true">
+                            <i class="fas fa-bars"></i> Categories
+                        </button>
+                        <ul class="cp-categories-menu">
+                            <li><a href="products.html"><i class="fas fa-star"></i> Best Deals</a></li>
+                            <li><a href="products.html"><i class="fas fa-heartbeat"></i> ICU & Critical Care</a></li>
+                            <li><a href="products.html"><i class="fas fa-flask"></i> Laboratory Diagnostics</a></li>
+                            <li><a href="products.html"><i class="fas fa-x-ray"></i> Medical Imaging</a></li>
+                            <li><a href="products.html"><i class="fas fa-bone"></i> Orthopaedic & Surgical</a></li>
+                            <li><a href="products.html"><i class="fas fa-procedures"></i> Hospital Furniture</a></li>
+                            <li><a href="products.html"><i class="fas fa-box-medical"></i> General Medical Supplies</a></li>
+                            <li><a href="products.html"><i class="fas fa-th-large"></i> All Products</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col header-menu-column justify-content-center">
                     <div class="sticky-logo">
                         <div class="site-logo">
@@ -93,24 +118,28 @@
                         <nav>
                             <div class="ltn__main-menu">
                                 <ul>
-                                    
-<li><a href="index.html">Home</a></li>
-<li class="menu-icon"><a href="about.html">About</a>
-    <ul class="sub-menu">
-        <li><a href="about.html">Company Profile</a></li>
-        <li><a href="about.html#roadmap">Roadmap</a></li>
-        <li><a href="about.html#mission">Mission & Vision</a></li>
-    </ul>
-</li>
-<li><a href="services.html">Services</a></li>
-<li><a href="products.html">Products</a></li>
-<li><a href="partners.html">Partners</a></li>
-<li><a href="clients.html">Clients</a></li>
-<li><a href="contact.html">Contact</a></li>
-
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="menu-icon"><a href="about.html">About</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html">Company Profile</a></li>
+                                            <li><a href="about.html#roadmap">Roadmap</a></li>
+                                            <li><a href="about.html#mission">Mission & Vision</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="partners.html">Partners</a></li>
+                                    <li><a href="clients.html">Clients</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <div class="cp-header-bottom-phone">
+                        <i class="icon-call"></i>
+                        <a href="tel:+255719902445">+255 719 902 445</a>
                     </div>
                 </div>
             </div>
@@ -120,10 +149,18 @@
 <!-- HEADER AREA END -->
 
 <!-- MOBILE MENU START -->
-<div class="mobile-header-menu-fullwidth mb-30 d-block d-lg-none">
+<div class="mobile-header-menu-fullwidth mb-30 d-block d-lg-none cp-mobile-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row align-items-center">
+            <div class="col-8">
+                <div class="cp-mobile-search">
+                    <form action="#" onsubmit="return false;">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit" aria-label="Search"><i class="icon-magnifier"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-4 text-end">
                 <div class="mobile-menu-toggle d-lg-none">
                     <span>MENU</span>
                     <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
@@ -151,15 +188,13 @@
         </div>
         <div class="ltn__utilize-menu">
             <ul>
-                
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="products.html">Products</a></li>
-<li><a href="partners.html">Partners</a></li>
-<li><a href="clients.html">Clients</a></li>
-<li><a href="contact.html">Contact</a></li>
-
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="partners.html">Partners</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="ltn__social-media-2">
@@ -173,464 +208,677 @@
 </div>
 <!-- Utilize Mobile Menu End -->
 <div class="ltn__utilize-overlay"></div>
-<!-- SLIDER AREA START -->
-<div class="ltn__slider-area ltn__slider-3 section-bg-1">
-    <div class="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
-        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/carepath/hero-1.jpg">
-            <div class="ltn__slide-item-inner text-left">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 align-self-center">
-                            <div class="slide-item-info">
-                                <div class="slide-item-info-inner ltn__slide-animation">
-                                    <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-heartbeat"></i></span> Medical Equipment Solutions</h6>
-                                    <h1 class="slide-title animated">Transforming Access to<br>Quality Medical Equipment</h1>
-                                    <div class="slide-brief animated">
-                                        <p>CarePath Company Limited delivers reliable, innovative and high-quality medical equipment across Tanzania, empowering healthcare providers to improve patient outcomes.</p>
-                                    </div>
-                                    <div class="btn-wrapper animated">
-                                        <a href="services.html" class="theme-btn-1 btn btn-effect-1">Our Solutions</a>
-                                        <a href="contact.html" class="btn btn-effect-3 btn-white">Contact Us <i class="icon-next"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/carepath/hero-2.jpg">
-            <div class="ltn__slide-item-inner text-left">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 align-self-center">
-                            <div class="slide-item-info">
-                                <div class="slide-item-info-inner ltn__slide-animation">
-                                    <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-shipping-fast"></i></span> Nationwide Distribution</h6>
-                                    <h1 class="slide-title animated">End-to-End Healthcare<br>Equipment Support</h1>
-                                    <div class="slide-brief animated">
-                                        <p>From sourcing and importation to installation, training and after-sales service, we support healthcare institutions at every stage.</p>
-                                    </div>
-                                    <div class="btn-wrapper animated">
-                                        <a href="products.html" class="theme-btn-1 btn btn-effect-1">Explore Products</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- SLIDER AREA END -->
 
-<!-- ABOUT US AREA START -->
-<div class="ltn__about-us-area pt-80 pb-90">
+<!-- HERO AREA START -->
+<section class="cp-hero-vicodin">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 align-self-center">
-                <div class="about-us-img-wrap about-img-left">
-                    <img src="img/carepath/about.jpg" alt="Medical Equipment">
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <div class="cp-hero-main">
+                    <div class="cp-hero-content">
+                        <span class="cp-hero-tag"><i class="fas fa-heartbeat"></i> Medical Equipment Solutions</span>
+                        <h1>Transforming Access to <br><span>Quality Medical Equipment</span></h1>
+                        <p>CarePath Company Limited delivers reliable, innovative and high-quality medical equipment across Tanzania, empowering healthcare providers to improve patient outcomes.</p>
+                        <div class="cp-hero-btns">
+                            <a href="products.html" class="theme-btn-1 btn btn-effect-1">Shop Now</a>
+                            <a href="services.html" class="btn btn-effect-3 btn-white">Our Solutions</a>
+                        </div>
+                    </div>
+                    <div class="cp-hero-image">
+                        <img src="img/carepath/hero-1.jpg" alt="Medical equipment showcase">
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 align-self-center">
-                <div class="about-us-info-wrap">
-                    <div class="section-title-area ltn__section-title-2--- mb-30">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About CarePath</h6>
-                        <h1 class="section-title">Your Trusted Partner in Medical Equipment</h1>
-                        <p>Founded in 2023, CarePath Company Limited is on a mission to transform access to quality medical equipment across Tanzania. We supply hospitals, clinics, diagnostic centres, laboratories and research institutions with certified devices and integrated healthcare solutions.</p>
-                    </div>
-                    <ul class="ltn__list-item-1 ltn__list-item-1-before--- clearfix">
-                        <li><i class="fas fa-check-square"></i> Nationwide distribution of certified medical devices.</li>
-                        <li><i class="fas fa-check-square"></i> Regulatory-compliant importation and sourcing.</li>
-                        <li><i class="fas fa-check-square"></i> Professional installation, training and after-sales support.</li>
-                    </ul>
-                    <div class="btn-wrapper mt-30">
-                        <a href="about.html" class="theme-btn-1 btn btn-effect-1">Learn More</a>
-                    </div>
+            <div class="col-lg-4">
+                <div class="cp-hero-side">
+                    <a href="products.html" class="cp-hero-promo cp-hero-promo-1">
+                        <div class="cp-hero-promo-content">
+                            <span class="cp-promo-label">New Arrival</span>
+                            <h3>First Aid Kits Pre Package</h3>
+                            <p>Starting at competitive prices</p>
+                            <span class="cp-promo-link">Shop Now <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                        <div class="cp-hero-promo-img">
+                            <img src="img/carepath/product-4.jpg" alt="First aid kit">
+                        </div>
+                    </a>
+                    <a href="products.html" class="cp-hero-promo cp-hero-promo-2">
+                        <div class="cp-hero-promo-content">
+                            <span class="cp-promo-label">Hot Product</span>
+                            <h3>Hand Sanitizer Package</h3>
+                            <p>Essential hygiene supplies</p>
+                            <span class="cp-promo-link">Shop Now <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                        <div class="cp-hero-promo-img">
+                            <img src="img/carepath/product-2.jpg" alt="Hand sanitizer">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- ABOUT US AREA END -->
+</section>
+<!-- HERO AREA END -->
 
-<!-- SERVICES AREA START -->
-<div class="ltn__service-area section-bg-1 pt-115 pb-70">
+<!-- CATEGORY AREA START -->
+<section class="cp-category-row-wrap">
+    <div class="container">
+        <div class="cp-category-row">
+            <a href="products.html" class="cp-category-item"><i class="fas fa-star"></i><span>Best Deals</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-heartbeat"></i><span>ICU & Critical Care</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-flask"></i><span>Laboratory Diagnostics</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-x-ray"></i><span>Medical Imaging</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-bone"></i><span>Orthopaedic & Surgical</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-procedures"></i><span>Hospital Furniture</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-box-medical"></i><span>General Supplies</span></a>
+            <a href="products.html" class="cp-category-item"><i class="fas fa-th-large"></i><span>All Products</span></a>
+        </div>
+    </div>
+</section>
+<!-- CATEGORY AREA END -->
+
+<!-- FEATURED PRODUCTS AREA START -->
+<section class="ltn__product-area ltn__product-gutter pt-80 pb-50">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-title-area ltn__section-title-2--- text-center">
-                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">What We Do</h6>
-                    <h1 class="section-title">Our Integrated Solutions</h1>
-                    <p>From sourcing to installation, training and ongoing support — CarePath delivers complete medical equipment solutions for healthcare facilities across Tanzania.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-                <div class="cp-service-card">
-                    <div class="cp-service-icon"><i class="fas fa-truck-medical"></i></div>
-                    <h3>Medical Equipment Distribution</h3>
-                    <p>Reliable nationwide delivery of certified medical devices and supplies.</p>
-                    <ul>
-                        <li>Hospitals, clinics, labs and pharmacies</li>
-                        <li>Urgent and scheduled deliveries</li>
-                    </ul>
-                    <div class="cp-card-actions">
-                        <a href="services.html" class="cp-btn-view" aria-label="Learn more"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-                <div class="cp-service-card">
-                    <div class="cp-service-icon"><i class="fas fa-globe"></i></div>
-                    <h3>Global Importation & Compliance</h3>
-                    <p>Sourcing from recognized manufacturers with full regulatory compliance.</p>
-                    <ul>
-                        <li>Tanzanian health authority clearance</li>
-                        <li>Trusted global manufacturer network</li>
-                    </ul>
-                    <div class="cp-card-actions">
-                        <a href="services.html" class="cp-btn-view" aria-label="Learn more"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-                <div class="cp-service-card">
-                    <div class="cp-service-icon"><i class="fas fa-tools"></i></div>
-                    <h3>Installation & Technical Support</h3>
-                    <p>Professional installation, commissioning and technical setup.</p>
-                    <ul>
-                        <li>Qualified engineer deployment</li>
-                        <li>Remote and on-site support</li>
-                    </ul>
-                    <div class="cp-card-actions">
-                        <a href="services.html" class="cp-btn-view" aria-label="Learn more"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-                <div class="cp-service-card">
-                    <div class="cp-service-icon"><i class="fas fa-user-md"></i></div>
-                    <h3>Training & Consultation</h3>
-                    <p>Hands-on product training and ongoing clinical consultation.</p>
-                    <ul>
-                        <li>Staff application training</li>
-                        <li>On-site and virtual sessions</li>
-                    </ul>
-                    <div class="cp-card-actions">
-                        <a href="services.html" class="cp-btn-view" aria-label="Learn more"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-30">
-                <div class="cp-service-card">
-                    <div class="cp-service-icon"><i class="fas fa-headset"></i></div>
-                    <h3>After-Sales Service</h3>
-                    <p>Long-term maintenance and performance support for your equipment.</p>
-                    <ul>
-                        <li>Preventive maintenance programs</li>
-                        <li>Spare parts and rapid response</li>
-                    </ul>
-                    <div class="cp-card-actions">
-                        <a href="services.html" class="cp-btn-view" aria-label="Learn more"><i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center mt-20">
-                <a href="services.html" class="theme-btn-1 btn btn-effect-1">View All Services</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- SERVICES AREA END -->
-
-<!-- BANNER AREA START -->
-<div class="ltn__banner-area mt-120---">
-    <div class="container">
-        <div class="row ltn__custom-gutter--- justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-                <div class="ltn__banner-item">
-                    <div class="ltn__banner-img">
-                        <a href="products.html"><img src="img/carepath/banner-1.jpg" alt="Banner Image"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="ltn__banner-item">
-                    <div class="ltn__banner-img">
-                        <a href="products.html"><img src="img/carepath/banner-2.jpg" alt="Banner Image"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="ltn__banner-item">
-                    <div class="ltn__banner-img">
-                        <a href="products.html"><img src="img/carepath/banner-3.jpg" alt="Banner Image"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- BANNER AREA END -->
-
-<!-- PRODUCT AREA START (product-item-3) -->
-<div class="ltn__product-area ltn__product-gutter no-product-ratting pt-85 pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title-area ltn__section-title-2 text-center">
+                <div class="section-title-area ltn__section-title-2 text-center mb-40">
                     <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Catalogue</h6>
                     <h1 class="section-title">Featured Products</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-icu">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/product-1.jpg" alt="ICU & Critical Care"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">ICU & Critical Care</a></h3>
-                                <p class="cp-product-desc">Advanced ventilators, patient monitors and life-support systems for intensive care.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-icu" data-cp-name="ICU & Critical Care" data-cp-category="Product" data-cp-image="img/carepath/product-1.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card cp-product-promo-tall" id="product-promo-1">
+                    <div class="cp-product-promo-inner">
+                        <span class="cp-promo-badge">Mask & Covid</span>
+                        <h3>50% off in Covid Vaccine</h3>
+                        <a href="products.html" class="cp-product-link">Buy Now <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-lab">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/product-2.jpg" alt="Laboratory Diagnostics"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Laboratory Diagnostics</a></h3>
-                                <p class="cp-product-desc">Analysers, microscopes and laboratory instruments for accurate diagnostics.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-lab" data-cp-name="Laboratory Diagnostics" data-cp-category="Product" data-cp-image="img/carepath/product-2.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                    <img src="img/carepath/banner-1.jpg" alt="Promo">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-icu">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-icu.jpg" alt="ICU & Critical Care"></a>
+                        <span class="cp-product-badge">NEW</span>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-imaging">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/product-3.jpg" alt="Medical Imaging"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Medical Imaging</a></h3>
-                                <p class="cp-product-desc">X-ray, ultrasound and imaging systems for modern diagnostic departments.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-imaging" data-cp-name="Medical Imaging" data-cp-category="Product" data-cp-image="img/carepath/product-3.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">ICU & Critical Care</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$129.00</span> <span class="cp-price-old">$140.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-icu" data-cp-name="ICU & Critical Care" data-cp-category="Product" data-cp-image="img/carepath/category-icu.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-ortho">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/product-4.jpg" alt="Orthopaedic & Surgical"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Orthopaedic & Surgical</a></h3>
-                                <p class="cp-product-desc">Implants, surgical instruments and operating theatre solutions.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-ortho" data-cp-name="Orthopaedic & Surgical" data-cp-category="Product" data-cp-image="img/carepath/product-4.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-lab">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-lab.jpg" alt="Laboratory Diagnostics"></a>
+                        <span class="cp-product-badge">NEW</span>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-furniture">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/banner-3.jpg" alt="Hospital Furniture"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Hospital Furniture</a></h3>
-                                <p class="cp-product-desc">Beds, trolleys and ergonomic furniture for healthcare facilities.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-furniture" data-cp-name="Hospital Furniture" data-cp-category="Product" data-cp-image="img/carepath/banner-3.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Laboratory Diagnostics</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$145.00</span> <span class="cp-price-old">$155.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-lab" data-cp-name="Laboratory Diagnostics" data-cp-category="Product" data-cp-image="img/carepath/category-lab.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-supplies">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/banner-1.jpg" alt="General Medical Supplies"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">General Medical Supplies</a></h3>
-                                <p class="cp-product-desc">Essential disposables, consumables and everyday medical supplies.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-supplies" data-cp-name="General Medical Supplies" data-cp-category="Product" data-cp-image="img/carepath/banner-1.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-imaging">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-imaging.jpg" alt="Medical Imaging"></a>
+                        <span class="cp-product-badge">NEW</span>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-diagnostic">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/hero-2.jpg" alt="Diagnostic Devices"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Diagnostic Devices</a></h3>
-                                <p class="cp-product-desc">Portable and clinical diagnostic devices for point-of-care testing.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-diagnostic" data-cp-name="Diagnostic Devices" data-cp-category="Product" data-cp-image="img/carepath/hero-2.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Medical Imaging</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$135.00</span> <span class="cp-price-old">$145.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-imaging" data-cp-name="Medical Imaging" data-cp-category="Product" data-cp-image="img/carepath/category-imaging.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="cp-product-card" id="product-healthcare">
-                            <div class="cp-product-img">
-                                <a href="products.html"><img src="img/carepath/about.jpg" alt="Healthcare Equipment"></a>
-                            </div>
-                            <div class="cp-product-info">
-                                <h3 class="cp-product-title"><a href="products.html">Healthcare Equipment</a></h3>
-                                <p class="cp-product-desc">Comprehensive healthcare equipment for hospitals, clinics and research.</p>
-                                <button class="cp-btn-enquiry" data-cp-add="product-healthcare" data-cp-name="Healthcare Equipment" data-cp-category="Product" data-cp-image="img/carepath/about.jpg">
-                                    <i class="fas fa-shopping-cart"></i> Add to Cart
-                                </button>
-                                <a href="products.html" class="cp-product-link">View Details</a>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card cp-product-promo-tall" id="product-promo-2">
+                    <div class="cp-product-promo-inner">
+                        <span class="cp-promo-badge">-25% OFF</span>
+                        <h3>Antiseptic Dry Hand Gel</h3>
+                        <a href="products.html" class="cp-product-link">Buy Now <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    <img src="img/carepath/product-2.jpg" alt="Promo">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-ortho">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-ortho.jpg" alt="Orthopaedic & Surgical"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Orthopaedic & Surgical</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$149.00</span> <span class="cp-price-old">$160.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-ortho" data-cp-name="Orthopaedic & Surgical" data-cp-category="Product" data-cp-image="img/carepath/category-ortho.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-furniture">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-furniture.jpg" alt="Hospital Furniture"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Hospital Furniture</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$110.00</span> <span class="cp-price-old">$120.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-furniture" data-cp-name="Hospital Furniture" data-cp-category="Product" data-cp-image="img/carepath/category-furniture.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="product-supplies">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-supplies.jpg" alt="General Medical Supplies"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">General Medical Supplies</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$125.00</span> <span class="cp-price-old">$135.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="product-supplies" data-cp-name="General Medical Supplies" data-cp-category="Product" data-cp-image="img/carepath/category-supplies.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center mt-30">
-                <a href="products.html" class="theme-btn-1 btn btn-effect-1">View All Products</a>
-            </div>
-        </div>
     </div>
-</div>
-<!-- PRODUCT AREA END -->
+</section>
+<!-- FEATURED PRODUCTS AREA END -->
 
-<!-- STRATEGIC PARTNERS AREA START -->
-<div class="ltn__brand-logo-area section-bg-1 pt-80 pb-60">
+<!-- TRENDING PRODUCTS AREA START -->
+<section class="ltn__product-area ltn__product-gutter pt-50 pb-50">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-title-area ltn__section-title-2--- text-center mb-40">
-                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Trusted Manufacturers</h6>
-                    <h1 class="section-title">Our Strategic Partners</h1>
+                <div class="section-title-area ltn__section-title-2 text-center mb-40">
+                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Popular Right Now</h6>
+                    <h1 class="section-title">Trending Products</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="carepath-logo-marquee">
-                    <div class="carepath-logo-track">
-                        <div class="carepath-logo-item"><h4>BIOBASE</h4></div>
-                        <div class="carepath-logo-item"><h4>MEDIGlobal</h4></div>
-                        <div class="carepath-logo-item"><h4>Makula</h4></div>
-                        <div class="carepath-logo-item"><h4>Seamaty</h4></div>
-                        <div class="carepath-logo-item"><h4>Macura</h4></div>
-                        <div class="carepath-logo-item"><h4>Mindray</h4></div>
-                        <!-- Duplicate for seamless loop -->
-                        <div class="carepath-logo-item"><h4>BIOBASE</h4></div>
-                        <div class="carepath-logo-item"><h4>MEDIGlobal</h4></div>
-                        <div class="carepath-logo-item"><h4>Makula</h4></div>
-                        <div class="carepath-logo-item"><h4>Seamaty</h4></div>
-                        <div class="carepath-logo-item"><h4>Macura</h4></div>
-                        <div class="carepath-logo-item"><h4>Mindray</h4></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="trend-1">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-2.jpg" alt="Antiseptic Spray"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Antiseptic Spray</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$32.00</span> <span class="cp-price-old">$46.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="trend-1" data-cp-name="Antiseptic Spray" data-cp-category="Product" data-cp-image="img/carepath/product-2.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="trend-2">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-1.jpg" alt="Digital Stethoscope"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Digital Stethoscope</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$25.00</span> <span class="cp-price-old">$35.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="trend-2" data-cp-name="Digital Stethoscope" data-cp-category="Product" data-cp-image="img/carepath/product-1.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="trend-3">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-3.jpg" alt="Cosmetic Containers"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$75.00</span> <span class="cp-price-old">$82.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="trend-3" data-cp-name="Cosmetic Containers" data-cp-category="Product" data-cp-image="img/carepath/product-3.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="trend-4">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-4.jpg" alt="Blood Pressure Monitor"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">BP Monitor</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$78.00</span> <span class="cp-price-old">$85.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="trend-4" data-cp-name="BP Monitor" data-cp-category="Product" data-cp-image="img/carepath/product-4.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center mt-30">
-                <a href="partners.html" class="theme-btn-1 btn btn-effect-1">View All Partners</a>
+    </div>
+</section>
+<!-- TRENDING PRODUCTS AREA END -->
+
+<!-- PROMO BANNER AREA START -->
+<section class="cp-promo-banner-area pt-30 pb-30">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="products.html" class="cp-promo-banner">
+                    <img src="img/carepath/product-1.jpg" alt="Stethoscope">
+                    <div class="cp-promo-banner-content">
+                        <h3>35% off in all products</h3>
+                        <span>Shop Now</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="products.html" class="cp-promo-banner cp-promo-banner-center">
+                    <img src="img/carepath/category-diagnostic.jpg" alt="Diagnostic gloves">
+                    <div class="cp-promo-banner-content">
+                        <h3>50% off in all products</h3>
+                        <span>Shop Now</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="products.html" class="cp-promo-banner">
+                    <img src="img/carepath/product-4.jpg" alt="Medical device">
+                    <div class="cp-promo-banner-content">
+                        <h3>35% off in all products</h3>
+                        <span>Shop Now</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
-</div>
-<!-- STRATEGIC PARTNERS AREA END -->
+</section>
+<!-- PROMO BANNER AREA END -->
 
-<!-- KEY CLIENTS AREA START -->
-<div class="ltn__brand-logo-area section-bg-1 pt-60 pb-90">
+<!-- BEST SELLING ITEMS AREA START -->
+<section class="ltn__product-area ltn__product-gutter pt-80 pb-50">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-title-area ltn__section-title-2--- text-center mb-40">
-                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Healthcare & Research Institutions</h6>
-                    <h1 class="section-title">Our Key Clients</h1>
+                <div class="section-title-area ltn__section-title-2 text-center mb-40">
+                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Top Rated</h6>
+                    <h1 class="section-title">Best Selling Item</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="carepath-logo-marquee">
-                    <div class="carepath-logo-track" style="animation-direction: reverse;">
-                        <div class="carepath-logo-item"><h4>NIMR</h4><small>National Institute for Medical Research</small></div>
-                        <div class="carepath-logo-item"><h4>UDOM</h4><small>University of Dodoma</small></div>
-                        <div class="carepath-logo-item"><h4>NCAA</h4><small>Ngorongoro Conservation Area Authority</small></div>
-                        <div class="carepath-logo-item"><h4>Hach</h4></div>
-                        <div class="carepath-logo-item"><h4>TANESCO</h4></div>
-                        <div class="carepath-logo-item"><h4>UNDP</h4></div>
-                        <!-- Duplicate for seamless loop -->
-                        <div class="carepath-logo-item"><h4>NIMR</h4><small>National Institute for Medical Research</small></div>
-                        <div class="carepath-logo-item"><h4>UDOM</h4><small>University of Dodoma</small></div>
-                        <div class="carepath-logo-item"><h4>NCAA</h4><small>Ngorongoro Conservation Area Authority</small></div>
-                        <div class="carepath-logo-item"><h4>Hach</h4></div>
-                        <div class="carepath-logo-item"><h4>TANESCO</h4></div>
-                        <div class="carepath-logo-item"><h4>UNDP</h4></div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-1">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-1.jpg" alt="Bandage Roll"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Antiseptic Spray</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$32.00</span> <span class="cp-price-old">$46.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-1" data-cp-name="Antiseptic Spray" data-cp-category="Product" data-cp-image="img/carepath/product-1.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-2">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-icu.jpg" alt="Nebulizer mask"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Digital Stethoscope</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$25.00</span> <span class="cp-price-old">$35.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-2" data-cp-name="Digital Stethoscope" data-cp-category="Product" data-cp-image="img/carepath/category-icu.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-3">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-3.jpg" alt="Blue gloves"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$75.00</span> <span class="cp-price-old">$82.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-3" data-cp-name="Cosmetic Containers" data-cp-category="Product" data-cp-image="img/carepath/product-3.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-4">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-diagnostic.jpg" alt="Nebulizer machine"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$78.00</span> <span class="cp-price-old">$85.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-4" data-cp-name="Cosmetic Containers" data-cp-category="Product" data-cp-image="img/carepath/category-diagnostic.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-5">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-4.jpg" alt="Vitamins"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Blue Hand Gloves</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$150.00</span> <span class="cp-price-old">$180.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-5" data-cp-name="Blue Hand Gloves" data-cp-category="Product" data-cp-image="img/carepath/product-4.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-6">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-icu.jpg" alt="Thermometer gun"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Thermometer Gun</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$150.00</span> <span class="cp-price-old">$180.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-6" data-cp-name="Thermometer Gun" data-cp-category="Product" data-cp-image="img/carepath/category-icu.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-7">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/product-2.jpg" alt="Infrared thermometer"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$75.00</span> <span class="cp-price-old">$82.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-7" data-cp-name="Cosmetic Containers" data-cp-category="Product" data-cp-image="img/carepath/product-2.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="cp-product-card" id="best-8">
+                    <div class="cp-product-img">
+                        <a href="products.html"><img src="img/carepath/category-supplies.jpg" alt="Masks and gloves"></a>
+                        <span class="cp-product-badge">NEW</span>
+                    </div>
+                    <div class="cp-product-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3 class="cp-product-title"><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$78.00</span> <span class="cp-price-old">$85.00</span></div>
+                        <button class="cp-btn-enquiry" data-cp-add="best-8" data-cp-name="Cosmetic Containers" data-cp-category="Product" data-cp-image="img/carepath/category-supplies.jpg"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center mt-30">
-                <a href="clients.html" class="theme-btn-2 btn btn-effect-2">View All Clients</a>
-            </div>
-        </div>
     </div>
-</div>
-<!-- KEY CLIENTS AREA END -->
+</section>
+<!-- BEST SELLING ITEMS AREA END -->
 
-<!-- CALL TO ACTION START -->
-<div class="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
+<!-- FEATURED PRODUCTS LIST STYLE AREA START -->
+<section class="ltn__product-area ltn__product-gutter section-bg-1 pt-80 pb-50">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
-                    <div class="coll-to-info text-color-white">
-                        <h1>Ready to equip your healthcare facility?</h1>
+                <div class="section-title-area ltn__section-title-2 text-center mb-40">
+                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Handpicked For You</h6>
+                    <h1 class="section-title">Featured Products</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-1">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/product-2.jpg" alt="Antiseptic Spray"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Antiseptic Spray</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$129.00</span> <span class="cp-price-old">$140.00</span></div>
                     </div>
-                    <div class="btn-wrapper">
-                        <a class="btn btn-effect-3 btn-white" href="contact.html">Get in Touch <i class="icon-next"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-2">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/product-1.jpg" alt="Digital Stethoscope"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Digital Stethoscope</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$145.00</span> <span class="cp-price-old">$155.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-3">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/product-3.jpg" alt="Thermometer Gun"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Thermometer Gun</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$135.00</span> <span class="cp-price-old">$145.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-4">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/product-4.jpg" alt="Tail Light Lens"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Tail Light Lens</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$149.00</span> <span class="cp-price-old">$160.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-5">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/category-icu.jpg" alt="Coil Spring Kit"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Coil Spring Kit</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$140.00</span> <span class="cp-price-old">$150.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-6">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/category-imaging.jpg" alt="Cosmetic Containers"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$110.00</span> <span class="cp-price-old">$120.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-7">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/category-ortho.jpg" alt="Digital Stethoscope"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Digital Stethoscope</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$130.00</span> <span class="cp-price-old">$150.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-8">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/category-lab.jpg" alt="Thermometer Gun"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Thermometer Gun</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$180.00</span> <span class="cp-price-old">$190.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cp-product-list-item" id="feat-list-9">
+                    <div class="cp-product-list-img"><a href="products.html"><img src="img/carepath/category-supplies.jpg" alt="Cosmetic Containers"></a></div>
+                    <div class="cp-product-list-info">
+                        <div class="cp-product-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <h3><a href="products.html">Cosmetic Containers</a></h3>
+                        <div class="cp-product-price"><span class="cp-price-current">$125.00</span> <span class="cp-price-old">$145.00</span></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- CALL TO ACTION END -->
+</section>
+<!-- FEATURED PRODUCTS LIST STYLE AREA END -->
+
+<!-- PROMO FEATURE SPLIT AREA START -->
+<section class="cp-promo-split-area pt-80 pb-80">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="cp-promo-split-img">
+                    <img src="img/carepath/category-healthcare.jpg" alt="N95 Facial Covering Mask">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="cp-promo-split-content">
+                    <span class="cp-promo-label">N95 Facial Covering Mask</span>
+                    <h2>Grade A Safety Masks For Sale. Hurry Up!</h2>
+                    <p>Over 39,000 people work with us in more than 70 countries all over the world. This breadth of global coverage, combined with specialist services, ensures reliable protection for every healthcare facility.</p>
+                    <div class="cp-promo-features">
+                        <div class="cp-promo-feature-item"><i class="fas fa-shield-virus"></i><span>Activated Carbon</span></div>
+                        <div class="cp-promo-feature-item"><i class="fas fa-lungs"></i><span>Breathing Valve</span></div>
+                        <div class="cp-promo-feature-item"><i class="fas fa-layer-group"></i><span>6 Layer Filtration</span></div>
+                        <div class="cp-promo-feature-item"><i class="fas fa-recycle"></i><span>Rewashes & Reusable</span></div>
+                    </div>
+                    <a href="products.html" class="theme-btn-1 btn btn-effect-1">View Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PROMO FEATURE SPLIT AREA END -->
+
+<!-- LATEST BLOGS AREA START -->
+<section class="cp-blog-area pt-80 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title-area ltn__section-title-2 text-center mb-40">
+                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">News & Insights</h6>
+                    <h1 class="section-title">Latest Blogs</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <article class="cp-blog-card">
+                    <div class="cp-blog-img"><a href="#"><img src="img/carepath/product-3.jpg" alt="Blog 1"></a></div>
+                    <div class="cp-blog-body">
+                        <div class="cp-blog-meta">
+                            <span><i class="far fa-user"></i> by: Admin</span>
+                            <span><i class="fas fa-tag"></i> Healthcare</span>
+                        </div>
+                        <h3><a href="#">10 Brilliant Ways to Equip Your Clinic</a></h3>
+                        <div class="cp-blog-footer">
+                            <span><i class="far fa-calendar-alt"></i> June 24, 2024</span>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <article class="cp-blog-card">
+                    <div class="cp-blog-img"><a href="#"><img src="img/carepath/category-lab.jpg" alt="Blog 2"></a></div>
+                    <div class="cp-blog-body">
+                        <div class="cp-blog-meta">
+                            <span><i class="far fa-user"></i> by: Admin</span>
+                            <span><i class="fas fa-tag"></i> Laboratory</span>
+                        </div>
+                        <h3><a href="#">The Most Inspiring Lab Design Of 2024</a></h3>
+                        <div class="cp-blog-footer">
+                            <span><i class="far fa-calendar-alt"></i> July 23, 2024</span>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <article class="cp-blog-card">
+                    <div class="cp-blog-img"><a href="#"><img src="img/carepath/category-diagnostic.jpg" alt="Blog 3"></a></div>
+                    <div class="cp-blog-body">
+                        <div class="cp-blog-meta">
+                            <span><i class="far fa-user"></i> by: Admin</span>
+                            <span><i class="fas fa-tag"></i> Diagnostics</span>
+                        </div>
+                        <h3><a href="#">Recent Commercial Medical Equipment Transactions</a></h3>
+                        <div class="cp-blog-footer">
+                            <span><i class="far fa-calendar-alt"></i> May 22, 2024</span>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- LATEST BLOGS AREA END -->
+
+<!-- TRUST BAR AREA START -->
+<section class="cp-trust-bar-area">
+    <div class="container">
+        <div class="cp-trust-bar">
+            <div class="cp-trust-item">
+                <i class="fas fa-shipping-fast"></i>
+                <div>
+                    <h4>Free shipping</h4>
+                    <p>On all orders over $49.00</p>
+                </div>
+            </div>
+            <div class="cp-trust-item">
+                <i class="fas fa-undo-alt"></i>
+                <div>
+                    <h4>15 days returns</h4>
+                    <p>Moneyback guarantee</p>
+                </div>
+            </div>
+            <div class="cp-trust-item">
+                <i class="fas fa-shield-alt"></i>
+                <div>
+                    <h4>Secure checkout</h4>
+                    <p>Protected by Paypal</p>
+                </div>
+            </div>
+            <div class="cp-trust-item">
+                <i class="fas fa-gift"></i>
+                <div>
+                    <h4>Offer & gift here</h4>
+                    <p>On all orders over</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- TRUST BAR AREA END -->
+
 <!-- FOOTER AREA START -->
-<footer class="ltn__footer-area">
+<footer class="ltn__footer-area cp-footer-vicodin">
     <div class="footer-top-area section-bg-1 plr--5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-4 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="footer-widget footer-about-widget">
                         <div class="footer-logo">
                             <div class="site-logo">
@@ -656,35 +904,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
                     <div class="footer-widget footer-menu-widget clearfix">
-                        <h4 class="footer-title">Company</h4>
+                        <h4 class="footer-title">Services</h4>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="products.html">Products</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="services.html">Order tracking</a></li>
+                                <li><a href="services.html">Wish List</a></li>
+                                <li><a href="contact.html">Login</a></li>
+                                <li><a href="about.html">My account</a></li>
+                                <li><a href="about.html">Terms & Conditions</a></li>
+                                <li><a href="products.html">Promotional Offers</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6">
                     <div class="footer-widget footer-menu-widget clearfix">
-                        <h4 class="footer-title">Solutions</h4>
+                        <h4 class="footer-title">Customer Care</h4>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="services.html">Equipment Distribution</a></li>
-                                <li><a href="services.html">Importation & Compliance</a></li>
-                                <li><a href="services.html">Installation & Support</a></li>
-                                <li><a href="services.html">Training & Consultation</a></li>
-                                <li><a href="services.html">After-Sales Service</a></li>
+                                <li><a href="contact.html">Login</a></li>
+                                <li><a href="about.html">My account</a></li>
+                                <li><a href="services.html">Wish List</a></li>
+                                <li><a href="services.html">Order tracking</a></li>
+                                <li><a href="about.html">FAQ</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6 col-sm-12 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="footer-widget footer-newsletter-widget">
                         <h4 class="footer-title">Get in Touch</h4>
                         <p>Need medical equipment or support? Send us a message and our team will respond promptly.</p>
